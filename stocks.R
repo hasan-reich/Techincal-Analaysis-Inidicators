@@ -2,7 +2,7 @@
 #we can perform periodic returns,calcualte option exirations and many other things
 #we will only be focusing on plotting techincal indicators this session
 #installing and loading quantmod
-install.packages(quantmod)
+install.packages('quantmod')
 library(quantmod)
 
 #the following will import all prices for desired stock using the ticket
