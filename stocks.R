@@ -1,12 +1,12 @@
 #will be using the package quantmod to chart some technical indicators
 #we can perform periodic returns,calcualte option exirations and many other things
-#we will only be focusing on plotting techincal indicators this session
+#only be focusing on plotting techincal indicators this session
 #installing and loading quantmod
 install.packages('quantmod')
 library(quantmod)
 
 #the following will import all prices for desired stock using the ticket
-#we will conduct our charts for Nike Inc stock (NKE) so we use that ticker
+#I will conduct our charts for Nike Inc stock (NKE) so we use that ticker
 #this will import stock data from yahoo finance
 getSymbols("NKE", src ="yahoo")
 
